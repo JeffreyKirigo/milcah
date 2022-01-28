@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.polygon {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #F6B400;
+    right: 0;
+}
+
+.new_feature {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60%;
+}
+
+.nav-bar li {
+    padding: 35px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar li:hover {
+    border-bottom: 5px solid orange;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_logo h3 {
+    font-size: 45px;
+}
+
+.description {
+    float: left;
+    font-size: 30px;
+    margin-right: 6%;
+    margin-left: 5%;
+    padding-top: 200px;
+}
+
+.description button {
+    margin-top: 50px;
+}
+
+.description p {
+    margin-top: 50px;
+}
+
+.img {
+    height: 300px;
+    margin-left: 55%;
+}
+
+.chic {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(240, 247, 240);
+}
+
+.bell {
+    color: orange;
+    font-size: 100px;
+    padding-left: 40%;
+}
+
+.truck-pickup {
+    color: orange;
+    font-size: 100px;
+    padding-left: 40%;
+}
+
+.hamburger {
+    color: orange;
+    font-size: 100px;
+    padding-left: 40%;
+}
+
+.box1 {
+    border: solid grey;
+    padding-bottom: 2%;
+    margin: 4%;
+    border-radius: 10%;
+}
+
+.box1>h1 {
+    text-align: center;
+    color: rgb(139, 31, 31);
+}
+
+.box2 {
+    border: solid rgb(94, 23, 23);
+    border-radius: 10%;
+}
+
+.box2>h1 {
+    text-align: center;
+    color: rgb(122, 35, 35);
+}
+
+.box1>p {
+    text-align: center;
+}
+
+.box2>p {
+    text-align: center;
+}
+
+span {
+    color: #F6B400;
+}
+
+.main {
+    margin-top: 8%;
+}
+
+.main>h1 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.burger1 {
+    border: solid gray;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.burger1>h2 {
+    text-align: center;
+    color: maroon;
+}
+
+.image {
+    margin-left: 30%;
+}
+
+.burger1>p {
+    text-align: center;
+}
+
+.milly {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.milly>h3 {
+    padding-left: 30px;
+    margin-top: 10%;
+}
+
+.ton {
+    margin-left: 40%;
+    width: 10%;
+    color: grey;
+    border-radius: 10%;
+    margin-top: 10%;
+    background-color: rgb(240, 247, 240);
+}
+
+.place>h3 {
+    padding-left: 30px;
+    margin-top: 10%;
+}
+
+.place {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bag {
+    margin-top: 10%;
+    width: 10%;
+    color: gray;
+    margin-left: 40%;
+    border-radius: 10%;
+    background-color: rgb(240, 247, 240);
+}
+
+.ic3 {
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 20%;
+    border-radius: 10%;
+    background-color: rgb(240, 247, 240);
+}
+
+.ic3 {
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 20%;
+    border-radius: 10%;
+    background-color: rgb(240, 247, 240);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.deck {
+    display: flex;
+    background-color: rgb(240, 247, 240);
+    height: 550px;
+    margin-top: 5%;
+}
+
+.db {
+    margin-left: 20%;
+}
+
+.pic {
+    margin-left: 30%;
+}
+
+.db>h4 {
+    font-size: 50px;
+    margin-top: 15%;
+}
+
+.mobile {
+    display: flex;
+    background-color: rgb(254, 184, 23);
+    padding-bottom: 10%;
+}
+
+.mobi2 {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.section>p {
+    font-size: 40px;
+    padding-left: 20%;
+    padding-top: 30%;
+    font-weight: bold;
+}
+
+.play {
+    margin-top: 10%;
+    display: flex;
+    color: rgb(254, 184, 23);
+    padding-left: 20%;
+}
+
+.grp {
+    margin-right: 8%;
+}
+
+.article {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}
+
+.logo1 {
+    flex: 1;
+}
+
+.stamp {
+    flex: 1;
+}
+
+.log {
+    flex: 1;
+}
+
+.log>h5 {
+    font-size: 20px;
+}
+
+.back {
+    background-color: orange;
+    padding: 4%;
+}
+
+footer {
+    display: flex;
+    margin-left: 4%;
+}
+
+.copy {
+    flex: 1;
+}
+
+.social {
+    flex: 1;
+}
+
+.designed {
+    flex: 1;
+}
+
+.stamp>ul {
+    list-style: none;
+}
